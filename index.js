@@ -1,8 +1,16 @@
-const fullName = "nguyen nhat doan :))"; 
-console.log(fullName);    
+var ten = [
+    'nam', 
+    'duy', 
+    'tan', 
+    'quag', 
+]; 
 
-setTimeout(function() {
-    console.log('day la log ' + Math.random)
-}, 1000)
- 
-var id = Symbol('id'); 
+var infor={
+    name: 'don', 
+    em: 'quang', 
+    anh:'man', 
+}; 
+
+infor.ban = 'kim anh'; 
+console.log(infor); 
+
